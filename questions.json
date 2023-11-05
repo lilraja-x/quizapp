@@ -1,0 +1,1042 @@
+[    
+    {        
+        "model": "quizapp.Question",        
+        "fields": 
+        {            
+            "question_text": "What is Django?",
+            "option1": "A framework for building websites",
+            "option2": "A programming language",
+            "option3": "An operating system",
+            "option4": "A database management system",
+            "correct_answer_index": 1       
+        }    
+    },    
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What type of web development does Django support?",
+            "option1": "Static websites",
+            "option2": "Dynamic websites",
+            "option3": "Both static and dynamic websites",
+            "option4": "None of the above",
+            "correct_answer_index": 2       
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What language is Django written in?",
+            "option1": "JavaScript",
+            "option2": "Python",
+            "option3": "C++",
+            "option4": "C#",
+            "correct_answer_index": 2     
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the primary goal of Django?",
+            "option1": "To create simple, easy-to-use websites",
+            "option2": "To make it easy to develop complex websites",
+            "option3": "To provide a fast and efficient way to build websites",
+            "option4": "All of the above",
+            "correct_answer_index": 4,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django ORM?",
+            "option1": "A library for performing database operations",
+            "option2": "A framework for creating user interfaces",
+            "option3": "A tool for managing source code",
+            "option4": "A system for sending emails",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is a Django view?",
+            "option1": "A template for displaying data",
+            "option2": "A function that returns a response to a user",
+            "option3": "A model for storing data",
+            "option4": "A way to handle user input",
+            "correct_answer_index": 2,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is a Django template?",
+            "option1": "A way to display data on a website",
+            "option2": "A method for storing data",
+            "option3": "A way to handle user input",
+            "option4": "A tool for managing source code",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },    
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is a Django model?",
+            "option1": "A template for displaying data",
+            "option2": "A way to handle user input",
+            "option3": "A blueprint for creating database tables",
+            "option4": "A function that returns a response to a user",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django admin interface?",
+            "option1": "A tool for managing source code",
+            "option2": "A way to display data on a website",
+            "option3": "An interface for managing data in the database",
+            "option4": "A function that returns a response to a user",
+            "correct_answer_index": 3,
+            "topic": "Django"       
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django URL dispatcher?",
+            "option1": "To handle user input",
+            "option2": "To map URLs to views",
+            "option3": "To manage database connections",
+            "option4": "To store website templates",
+            "correct_answer_index": 2,
+            "topic": "Django"   
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django middleware?",
+            "option1": "To handle user input",
+            "option2": "To process requests before they reach the view",
+            "option3": "To manage database connections",
+            "option4": "To store website templates",
+            "correct_answer_index": 2,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Forms module used for?",
+            "option1": "To manage database connections",
+            "option2": "To handle user input",
+            "option3": "To process requests before they reach the view",
+            "option4": "To store website templates",
+            "correct_answer_index": 2,
+            "topic": "Django" 
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django signals?",
+            "option1": "To manage database connections",
+            "option2": "To handle user input",
+            "option3": "To provide a way to perform actions when certain events occur",
+            "option4": "To store website templates",
+            "correct_answer_index": 3,
+            "topic": "Django" 
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Debug Toolbar used for?",
+            "option1": "To debug website templates",
+            "option2": "To debug Python code",
+            "option3": "To debug Django projects",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django" 
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Testing framework used for?",
+            "option1": "To debug website templates",
+            "option2": "To debug Python code",
+            "option3": "To test Django projects",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django migrations?",
+            "option1": "To manage database connections",
+            "option2": "To handle user input",
+            "option3": "To provide a way to manage changes to the database schema",
+            "option4": "To store website templates",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Cache framework used for?",
+            "option1": "To store website templates",
+            "option2": "To handle user input",
+            "option3": "To cache frequently-used data",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Serialization framework used for?",
+            "option1": "To store website templates",
+            "option2": "To handle user input",
+            "option3": "To provide a way to serialize and deserialize data",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the difference between Django models and Django forms?",
+            "option1": "Models are used to define the structure of data, while forms are used to handle user input",
+            "option2": "Forms are used to define the structure of data, while models are used to handle user input",
+            "option3": "Models and forms are the same thing",
+            "option4": "None of the above",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django template engine used for?",
+            "option1": "To store website templates",
+            "option2": "To handle user input",
+            "option3": "To provide a way to generate dynamic HTML pages",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django ORM used for?",
+            "option1": "To manage database connections",
+            "option2": "To handle user input",
+            "option3": "To provide a way to interact with databases using Python code",
+            "option4": "To store website templates",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's render function?",
+            "option1": "To store website templates",
+            "option2": "To handle user input",
+            "option3": "To generate a HTTP response from a template and context data",
+            "option4": "To debug database connections",
+            "correct_answer_index": 3,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the Django Static files framework used for?",
+            "option1": "To store and serve static files such as CSS, JavaScript, and images",
+            "option2": "To handle user input",
+            "option3": "To provide a way to interact with databases using Python code",
+            "option4": "To store website templates",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the difference between Django models and Django views?",
+            "option1": "Models are used to define the structure of data, while views are used to handle HTTP requests and generate responses",
+            "option2": "Views are used to define the structure of data, while models are used to handle HTTP requests and generate responses",
+            "option3": "Models and views are the same thing",
+            "option4": "None of the above",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's urlpatterns in a URL dispatcher?",
+            "option1": "To store the list of URL patterns for the website",
+            "option2": "To handle user input",
+            "option3": "To manage database connections",
+            "option4": "To generate dynamic HTML pages",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the difference between Django models and Django admin?",
+            "option1": "Models are used to define the structure of data, while admin is used to provide an interface for managing data",
+            "option2": "Admin is used to define the structure of data, while models are used to provide an interface for managing data",
+            "option3": "Models and admin are the same thing",
+            "option4": "None of the above",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's middleware in a request-response cycle?",
+            "option1": "To provide a way to process requests and responses before they reach views",
+            "option2": "To store website templates",
+            "option3": "To handle user input",
+            "option4": "To debug database connections",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's forms.py file?",
+            "option1": "To store forms and their fields",
+            "option2": "To handle user input",
+            "option3": "To provide a way to interact with databases using Python code",
+            "option4": "To store website templates",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's migrations?",
+            "option1": "To manage changes in the schema of a database over time",
+            "option2": "To store website templates",
+            "option3": "To handle user input",
+            "option4": "To debug database connections",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's __str__ method in models?",
+            "option1": "To return a string representation of an object",
+            "option2": "To handle user input",
+            "option3": "To provide a way to interact with databases using Python code",
+            "option4": "To store website templates",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+    {        
+        "model": "quizapp.Question",        
+        "fields": {            
+            "question_text": "What is the purpose of Django's get_absolute_url method in models?",
+            "option1": "To return the URL for an object's detail view",
+            "option2": "To handle user input",
+            "option3": "To provide a way to interact with databases using Python code",
+            "option4": "To store website templates",
+            "correct_answer_index": 1,
+            "topic": "Django"
+        }    
+    },
+
+
+
+
+
+
+
+    
+    
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is HTML?",
+            "option1": "HyperText Markup Language",
+            "option2": "HyperText Markup Logic",
+            "option3": "HyperText Markup Layout",
+            "option4": "HyperText Markup Link",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What does HTML stand for?",
+            "option1": "HyperText Markup Logic",
+            "option2": "HyperText Markup Language",
+            "option3": "HyperText Markup Layout",
+            "option4": "HyperText Markup Link",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <head> tag in HTML?",
+            "option1": "To display the content of the web page",
+            "option2": "To provide information about the document",
+            "option3": "To add images to the web page",
+            "option4": "To create links between pages",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the default display value for a block-level element?",
+            "option1": "inline",
+            "option2": "block",
+            "option3": "none",
+            "option4": "table",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which of the following elements is used to display a line break?",
+            "option1": "<break>",
+            "option2": "<br>",
+            "option3": "<lb>",
+            "option4": "<line>",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <p> tag in HTML?",
+            "option1": "To create a new paragraph",
+            "option2": "To display bold text",
+            "option3": "To add images to the web page",
+            "option4": "To create links between pages",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <html> tag in HTML?",
+            "option1": "To define a container for a document's head",
+            "option2": "To define a container for a document's body",
+            "option3": "To define a hyperlink",
+            "option4": "To define the root of an HTML document",
+            "correct_answer_index": 4,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <head> tag in HTML?",
+            "option1": "To provide metadata about a document",
+            "option2": "To provide the main content of a document",
+            "option3": "To define a hyperlink",
+            "option4": "To define a container for document styles",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <body> tag in HTML?",
+            "option1": "To provide metadata about a document",
+            "option2": "To provide the main content of a document",
+            "option3": "To define a hyperlink",
+            "option4": "To define a container for document styles",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <a> tag in HTML?",
+            "option1": "To provide metadata about a document",
+            "option2": "To provide the main content of a document",
+            "option3": "To define a hyperlink",
+            "option4": "To define a container for document styles",
+            "correct_answer_index": 3,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the <p> tag in HTML?",
+            "option1": "To define a paragraph",
+            "option2": "To provide the main content of a document",
+            "option3": "To define a hyperlink",
+            "option4": "To define a container for document styles",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a table?",
+            "option1": "<table>",
+            "option2": "<tab>",
+            "option3": "<tbl>",
+            "option4": "<tb>",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a header?",
+            "option1": "<header>",
+            "option2": "<head>",
+            "option3": "<h>",
+            "option4": "<top>",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What does the HTML <a> tag do?",
+            "option1": "Adds a link",
+            "option2": "Creates an unordered list",
+            "option3": "Adds a header",
+            "option4": "Creates a table",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a button?",
+            "option1": "<click>",
+            "option2": "<b>",
+            "option3": "<button>",
+            "option4": "<but>",
+            "correct_answer_index": 3,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the HTML <head> tag?",
+            "option1": "Contains information about the document",
+            "option2": "Contains the main content of the document",
+            "option3": "Defines a table",
+            "option4": "Defines a list",
+            "correct_answer_index": 1,
+            "topic": "HTML"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create an ordered list?",
+            "option1": "<list>",
+            "option2": "<ol>",
+            "option3": "<ordered>",
+            "option4": "<order>",
+            "correct_answer_index": 2,
+            "topic": "HTML"
+        }
+    },
+
+
+
+
+
+
+
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the correct syntax for declaring a variable in JavaScript?",
+            "option1": "var x;",
+            "option2": "variable x;",
+            "option3": "let x;",
+            "option4": "const x;",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the value of x after the following code is executed: var x = 5 + '5';",
+            "option1": "10",
+            "option2": "55",
+            "option3": "null",
+            "option4": "undefined",
+            "correct_answer_index": 2,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is closure in JavaScript?",
+            "option1": "A function within a function",
+            "option2": "An object containing both a function and its associated data",
+            "option3": "A data type that holds an array of functions",
+            "option4": "A feature for controlling access to variables and functions",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the difference between == and === in JavaScript?",
+            "option1": "== allows type coercion, === does not",
+            "option2": "=== allows type coercion, == does not",
+            "option3": "Both are the same",
+            "option4": "There is no difference",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is hoisting in JavaScript?",
+            "option1": "A feature that allows functions to be declared after they are used",
+            "option2": "A mechanism that moves function and variable declarations to the top of their respective scopes",
+            "option3": "A way of passing variables between different scopes",
+            "option4": "A way of manipulating the order of code execution",
+            "correct_answer_index": 2,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which of the following is not a JavaScript data type?",
+            "option1": "Number",
+            "option2": "String",
+            "option3": "Boolean",
+            "option4": "Array",
+            "correct_answer_index": 4,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the difference between let and var in JavaScript?",
+            "option1": "let is block scoped, var is not",
+            "option2": "var is block scoped, let is not",
+            "option3": "let is function scoped, var is not",
+            "option4": "var is function scoped, let is not",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is closure in JavaScript?",
+            "option1": "A function that returns a function",
+            "option2": "An object that contains a function and its associated variables",
+            "option3": "A function that takes another function as an argument",
+            "option4": "A function that can access its parent scope",
+            "correct_answer_index": 4,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the purpose of the this keyword in JavaScript?",
+            "option1": "To reference the global object",
+            "option2": "To reference the object that the function is a property of",
+            "option3": "To reference the parent object",
+            "option4": "To reference the object that invoked the function",
+            "correct_answer_index": 2,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the difference between null and undefined in JavaScript?",
+            "option1": "null is a value, undefined is a type",
+            "option2": "undefined is a value, null is a type",
+            "option3": "null is an object, undefined is a primitive",
+            "option4": "undefined is an object, null is a primitive",
+            "correct_answer_index": 4,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the difference between var and const in JavaScript?",
+            "option1": "var is mutable, const is not",
+            "option2": "const is mutable, var is not",
+            "option3": "var is block scoped, const is function scoped",
+            "option4": "const is block scoped, var is function scoped",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which JavaScript method returns the first element that matches a specified CSS selector?",
+            "option1": "querySelector()",
+            "option2": "getElementById()",
+            "option3": "getElementsByClassName()",
+            "option4": "getElementsByTagName()",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is closure in JavaScript?",
+            "option1": "A function that has access to variables in its parent scope",
+            "option2": "A variable that can't be changed",
+            "option3": "An array that holds data",
+            "option4": "A type of loop",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the difference between let and var in JavaScript?",
+            "option1": "let has block-level scope and var has function-level scope",
+            "option2": "var is more secure and let is less secure",
+            "option3": "let can only be used inside a function and var can be used anywhere",
+            "option4": "var is faster than let",
+            "correct_answer_index": 1,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the syntax for creating an object in JavaScript using an object literal?",
+            "option1": "let obj = (key1: value1, key2: value2, ...)",
+            "option2": "let obj = {key1: value1, key2: value2, ...}",
+            "option3": "let obj = [key1: value1, key2: value2, ...]",
+            "option4": "let obj = new Object(key1: value1, key2: value2, ...)",
+            "correct_answer_index": 2,
+            "topic": "JavaScript"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the syntax for creating an array in JavaScript?",
+            "option1": "let arr = (element1, element2, ...)",
+            "option2": "let arr = {element1, element2, ...}",
+            "option3": "let arr = [element1, element2, ...]",
+            "option4": "let arr = new Array(element1, element2, ...)",
+            "correct_answer_index": 3,
+            "topic": "JavaScript"
+        }
+    },
+
+
+
+
+
+
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is Python?",
+            "option1": "A high-level, interpreted programming language",
+            "option2": "A low-level, compiled programming language",
+            "option3": "A web framework",
+            "option4": "A database",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the syntax for creating a function in Python?",
+            "option1": "function function_name():",
+            "option2": "def function_name():",
+            "option3": "function_name():",
+            "option4": "create function_name():",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the syntax for a for loop in Python?",
+            "option1": "for (variable in sequence)",
+            "option2": "for variable in sequence",
+            "option3": "for (variable : sequence)",
+            "option4": "for each variable in sequence",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which data type is used for declaring a variable in Python?",
+            "option1": "var",
+            "option2": "int",
+            "option3": "const",
+            "option4": "There is no need to declare data type",
+            "correct_answer_index": 4,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(type(3.14))",
+            "option1": "int",
+            "option2": "float",
+            "option3": "str",
+            "option4": "double",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(3 == 3.0)",
+            "option1": "False",
+            "option2": "True",
+            "option3": "0",
+            "option4": "1",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(len([1, 2, 3, 4]))",
+            "option1": "3",
+            "option2": "4",
+            "option3": "5",
+            "option4": "6",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which Python library is used for web development?",
+            "option1": "Django",
+            "option2": "Flask",
+            "option3": "Pandas",
+            "option4": "NumPy",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(3 * 'hello ')",
+            "option1": "hello hello hello ",
+            "option2": "hello hello",
+            "option3": "hello",
+            "option4": "Syntax Error",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which operator is used for finding the remainder in Python?",
+            "option1": "/",
+            "option2": "%",
+            "option3": "//",
+            "option4": "*",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(5 + 5 * 2)",
+            "option1": "15",
+            "option2": "10",
+            "option3": "12",
+            "option4": "20",
+            "correct_answer_index": 3,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which of the following is a built-in Python data type?",
+            "option1": "list",
+            "option2": "tuple",
+            "option3": "map",
+            "option4": "set",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which of the following is a type of loop in Python?",
+            "option1": "for each",
+            "option2": "while",
+            "option3": "do while",
+            "option4": "for",
+            "correct_answer_index": 4,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: print(5 / 2)",
+            "option1": "2.0",
+            "option2": "2",
+            "option3": "2.5",
+            "option4": "5",
+            "correct_answer_index": 3,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the output of the following code: x = [1, 2, 3]; x[1] = 4; print(x)",
+            "option1": "[1, 2, 3]",
+            "option2": "[1, 4, 3]",
+            "option3": "[4, 2, 3]",
+            "option4": "[1, 2, 4]",
+            "correct_answer_index": 2,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the correct syntax for creating a dictionary in Python?",
+            "option1": "dict = {'key': 'value'}",
+            "option2": "dictionary = {'key': 'value'}",
+            "option3": "dict = ('key': 'value')",
+            "option4": "dictionary = ('key': 'value')",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the result of the following code: print(3**2)",
+            "option1": "9",
+            "option2": "6",
+            "option3": "3",
+            "option4": "2",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the result of the following code: print(len([1, 2, 3, 4]))",
+            "option1": "1",
+            "option2": "2",
+            "option3": "3",
+            "option4": "4",
+            "correct_answer_index": 4,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the result of the following code: x = 'hello'; x = x + ' world'; print(x)",
+            "option1": "hello world",
+            "option2": "world hello",
+            "option3": "hello",
+            "option4": "world",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "Which of the following is not a core data type in Python?",
+            "option1": "list",
+            "option2": "tuple",
+            "option3": "dictionary",
+            "option4": "matrix",
+            "correct_answer_index": 4,
+            "topic": "Python"
+        }
+    },
+    {
+        "model": "quizapp.Question",
+        "fields": {
+            "question_text": "What is the correct syntax for importing a module in Python?",
+            "option1": "import module",
+            "option2": "include module",
+            "option3": "require module",
+            "option4": "use module",
+            "correct_answer_index": 1,
+            "topic": "Python"
+        }
+    }
+]

@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{% static 'quiz.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url({% static 'hero-img.jpg' %});">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li id="about">About Us</li>
+                        <li><a href="mailto:########@gmail.com" class="mail">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="form-box">
+                    <form action="{% url 'quiz' %}" method="post" id="form" name="lang_select_form">
+                        {% csrf_token %}
+                        <select id="language" name="topic">
+                            <option  value="HTML"selected="selected">HTML</option>
+                            <option value="JavaScript">Javascript</option>
+                            <option value="Python">Python</option>
+                            <option value="Django">Django</option>
+                        </select> 
+                        <input type="submit" value="Start Quiz" class="choose-lang">
+                    </form>
+            </div>    
+        </div>
+
+        <div class="quiz">
+            <div class="header">
+                <div id="info">
+                    <div id="time">Time Left : </div>
+                    <div id="question-count">/{{questions|length}}</div>   
+                </div>      
+                <div class="bar">
+                    <div class="quiz-progress">
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+            </div>
+            <form method="post" action="{% url 'quiz' %}" id="quiz-form" name="quiz_submit_form">
+                {% csrf_token %}
+                {% for question in questions %}
+                <div class="question-wrap" id="question-{{ question.id }}" {% if not forloop.first %}style="display:none"{% endif %}>
+                    <div class="question">
+                        <div class="question_text">
+                            <h2>{{ question.question_text }}</h2>
+                        </div>
+                        <div class="choice">
+                            <div class="options">
+                                <input type="radio" name="{{ question.id }}" value="0">{{ question.option1 }}<br>
+                            </div>
+                            <div class="options">
+                                <input type="radio" name="{{ question.id }}" value="1">{{ question.option2 }}<br>
+                            </div>
+                            <div class="options">
+                                <input type="radio" name="{{ question.id }}" value="2">{{ question.option3 }}<br>
+                            </div>
+                            <div class="options">
+                                <input type="radio" name="{{ question.id }}" value="3">{{ question.option4 }}<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="left_right">
+                    <input type="submit" class="submit-answer" {% if forloop.last %}id="submit-quiz"{% endif %} value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="result">
+            <h2>Results</h2>
+            <p id="quiz-score"> You scored {{correct_answers}} out of {{ques}}</p>
+            <p id="quiz-percentage"> Your percentage in the quiz was {{percentage}}%</p>
+            <p id="quiz-performance"></p>
+            <div class="progress">
+                <div class="progress-bar" id="quiz-performance-bar">
+                    <div class="this-indicator" style="width: {{ percentage }}%;"></div>
+                </div>
+            </div>
+            <form method="post" action="{% url 'send_results_email' %}" class="input_container">
+                {% csrf_token %}
+                <h2> Enter your email to receive the correct answers: </h2>
+                <input type="email" name="email" id="email">
+                <input type="submit" value="Get result by email" class="submit-answer">
+            </form>
+        </div>
+        <script src="{% static 'quiz.js' %}"></script>
+</body>
+</html>
+
+
+
+{% comment %} <div id="email-section">
+    <form method="post" action="{% url 'send_results_email' %}" id="email_form">
+        {% csrf_token %}
+        <h2 class="outer_label"><label for="email">Enter your email to receive the correct answers : </label></h2>
+        <div class="input_container">
+            <input type="email" name="email" id="email">
+        </div>
+        <input type="submit" value="Send" class="submit-answer" id="btn">
+    </form>
+</div> {% endcomment %}
